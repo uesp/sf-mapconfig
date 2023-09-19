@@ -1,0 +1,38 @@
+{
+    // General map info
+    "mapTitle": "Starfield Gamemap",
+    "wikiNamespace": "Starfield",
+    "database" : "starfield",
+    "feedbackURL" : "https://starfieldwiki.net/wiki/StarfieldWiki_talk:Map_Design",
+    "releaseDate" : "09/09/2023", // for sorting games by release date in the map menu
+    "hasCustomCSS" : true,
+
+    // Map options
+    "hasCustomFavIcon" : true,
+
+    // Map coordinate system info
+    // 0: XY (Default)
+    // 1: Normalised
+    // 1.5: Pseudo-Normalised
+    // 2: Worldspace
+    "coordType" : 2,
+
+    // Map world info
+    "defaultWorldID" : 1,
+    "rootWorldID" : 1, // Determines what the root map ID is (default is defaultWorldID)
+    "minWorldID" : 0,
+    "maxWorldID" : 10000,
+    
+    // Map icon info
+    "iconSize" : 32,
+    "labelOffset" : 9,
+    "icons": {
+        "1"  : "Star",
+        "2"  : "Star",
+        "3"  : "Star",
+        "4"  : "Star",
+        "50" : "Special",
+        "100": "Planet",
+        "150": "Moon"
+    }
+}

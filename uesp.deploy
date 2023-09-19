@@ -1,0 +1,16 @@
+#
+# Deployment file for the Starfield gamemap config and assets.
+#
+
+name = sf.mapconfig
+
+ignore = .hg*
+ignore = .git*
+ignore = *.deploy
+ignore = *.sh
+
+dest = content1.uesp.net:/home/sfwiki/gamemap/
+dest = content2.uesp.net:/home/sfwiki/gamemap/
+dest = content3.uesp.net:/home/sfwiki/gamemap/
+destname = [dev]content3.uesp.net:/home/sfwiki/dev/gamemap/
+

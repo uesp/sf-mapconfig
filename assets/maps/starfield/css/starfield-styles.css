@@ -1,0 +1,13 @@
+.location-label {
+	color: #ddddff !important;
+}
+
+:root {
+    --surface: #DAF1FB;
+    --surface_variant: #cfe5ee;
+    --surface_variant_dark: #CBE9F7;
+    --primary: #e1f2f8;
+    --primary_variant: #d0dff5;
+    --primary_variant_light: #e6f4fa;
+    --highlight_light: #93E8FF
+}
