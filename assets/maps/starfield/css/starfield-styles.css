@@ -1,13 +1,38 @@
-.location-label {
-	color: #ddddff !important;
-}
-
 :root {
-    --surface: #DAF1FB;
-    --surface_variant: #cfe5ee;
-    --surface_variant_dark: #CBE9F7;
-    --primary: #e1f2f8;
-    --primary_variant: #d0dff5;
-    --primary_variant_light: #e6f4fa;
-    --highlight_light: #93E8FF
+
+	/* text colours */
+	--text_loc_name: #ddddff;
+	--text_link: var(--secondary_variant);
+	--selection_variant: rgba(125, 197, 215, 0.21);
+	--selection: rgba(106, 176, 193, 0.21);
+
+	/* surface colours */
+	--background: #0C161E;
+	--background_dark: #090E18;
+
+	--surface: #D6DFDC;
+	--surface_variant: #B7C0BD;
+	--surface_variant_dark: #CBD2D0;
+    --surface_dark: #131D25;
+	--surface_dark_variant_dark: var(--background);
+    --surface_dark_variant: #131B22;
+
+  	--primary: #E4EEEB;
+  	--primary_variant: rgb(196, 203, 213);
+  	--primary_variant_light: #e6f4fa;
+	--primary_variant_dark: #c1cfd5;
+
+	--primary_dark: var(--background);
+	--primary_dark_variant: var(--background_dark);
+
+	/* accent colours */
+  	--highlight_light: #80c7d9;
+	--highlight_dark:#6b9aa6;
+
+	--secondary: #233B45;
+	--secondary_light: #2c434c;
+	--secondary_variant: var(--highlight_light);
+	--secondary_variant_light: #caf4ff;
+	--secondary_variant_dark: var(--highlight_dark);
+
 }
