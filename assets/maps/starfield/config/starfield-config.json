@@ -7,6 +7,10 @@
     "releaseDate" : "09/09/2023", // for sorting games by release date in the map menu
     "hasCustomCSS" : true,
 
+    // Ad options (if excluded, ads will not be shown)
+    "adScriptName": "starfield-wiki_maps", // don't include .js, is implied
+    "altAdDivID": "sfwiki_maps", // don't include .js, is implied
+
     // Map options
     "hasCustomFavIcon" : true,
 
