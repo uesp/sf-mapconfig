@@ -2,16 +2,20 @@
     // General map info
     "mapTitle": "Starfield Gamemap",
     "wikiNamespace": "Starfield",
-    "database" : "starfield",
+    "wikiName" : "Starfield Wiki",
+    "wikiHomeURL" : "https://starfieldwiki.net/wiki/Home",
     "feedbackURL" : "https://starfieldwiki.net/wiki/StarfieldWiki_talk:Map_Design",
+    "helpURL" : "https://starfieldwiki.net/wiki/StarfieldWiki:Map_Help",
+    "database" : "starfield",
     "releaseDate" : "09/09/2023", // for sorting games by release date in the map menu
-    "hasCustomCSS" : true,
+
 
     // Ad options (if excluded, ads will not be shown)
     "adScriptName": "starfield-wiki_maps", // don't include .js, is implied
     "altAdDivID": "sfwiki_maps", // don't include .js, is implied
 
     // Map options
+    "hasCustomCSS" : true,
     "hasCustomFavIcon" : true,
 
     // Map coordinate system info
@@ -26,7 +30,7 @@
     "rootWorldID" : 1, // Determines what the root map ID is (default is defaultWorldID)
     "minWorldID" : 0,
     "maxWorldID" : 10000,
-    
+
     // Map icon info
     "iconSize" : 32,
     "labelOffset" : 9,

@@ -1,5 +1,15 @@
 :root {
 
+	/* custom radiuses */
+	--radius_minimum: 0px;
+   	--radius_tiny: 4px;
+   	--radius_small: 4px;
+   	--radius_medium: 4px;
+   	--radius_large: 4px;
+   	--radius_largest: 4px;
+   	--radius_circle: 4px;
+   	--radius_button: 4px;
+
 	/* text colours */
 	--text_loc_name: #ddddff;
 	--text_link: var(--secondary_variant);
@@ -35,4 +45,14 @@
 	--secondary_variant_light: #caf4ff;
 	--secondary_variant_dark: var(--highlight_dark);
 
+}
+
+@font-face {
+	font-family: 'wikiType';
+	src: url('../fonts/Roboto-Bold.ttf') format('embedded-opentype'), /* Internet Explorer */
+		 url('../fonts/Roboto-Bold.ttf') format('woff2'),             /* Super Modern Browsers */
+		 url('../fonts/Roboto-Bold.ttf') format('woff'),              /* Pretty Modern Browsers */
+		 url('../fonts/Roboto-Bold.ttf') format('truetype'),          /* Safari, Android, iOS */
+		 url('../fonts/Roboto-Bold.ttf') format('svg');               /* Legacy iOS */
+	font-display: swap;
 }
