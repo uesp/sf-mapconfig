@@ -12,5 +12,5 @@ ignore = *.sh
 dest = content1.uesp.net:/home/sfwiki/gamemap/
 dest = content2.uesp.net:/home/sfwiki/gamemap/
 dest = content3.uesp.net:/home/sfwiki/gamemap/
-destname = [dev]content3.uesp.net:/home/sfwiki/dev/gamemap/
+destname = [dev]dev1.uesp.net:/home/sfwiki/dev/gamemap/
 
